@@ -63,8 +63,8 @@ catalogs:
       specifier: 9.0.1
       version: 9.0.1
     got:
-      specifier: 15.0.1
-      version: 15.0.1
+      specifier: 15.0.3
+      version: 15.0.3
     p-retry:
       specifier: 8.0.0
       version: 8.0.0
@@ -300,15 +300,15 @@ catalogs:
       version: 7.0.3
 
 overrides:
-  '@hono/node-server@<1.19.10': '>=1.19.13'
+  '@hono/node-server@<1.19.10': '>=1.19.14'
   '@isaacs/brace-expansion@<=5.0.0': '>=5.0.1'
   '@modelcontextprotocol/sdk@<1.25.2': '>=1.25.3'
   '@modelcontextprotocol/sdk@>=1.10.0 <=1.25.3': '>=1.26.0'
   ajv@<6.14.0: '>=6.14.0'
   ajv@>=7.0.0-alpha.0 <8.18.0: '>=8.18.0'
-  axios@<1.15.0: '>=1.15.0'
-  axios@>=1.0.0 <1.15.0: '>=1.15.0'
-  axios@>=1.0.0 <=1.13.4: '>=1.13.5'
+  axios@<1.15.0: '>=1.15.1'
+  axios@>=1.0.0 <1.15.0: '>=1.15.1'
+  axios@>=1.0.0 <=1.13.4: '>=1.13.6'
   body-parser@>=2.2.0 <2.2.1: '>=2.2.2'
   brace-expansion@<1.1.13: '>=1.1.14'
   brace-expansion@>=2.0.0 <2.0.3: '>=2.0.3'
@@ -345,9 +345,8 @@ overrides:
   undici@<6.24.0: '>=6.24.1'
   undici@>=6.0.0 <6.24.0: '>=6.24.1'
   undici@>=7.0.0 <7.18.2: '>=7.18.2'
-  undici@>=7.0.0 <7.24.0: '>=7.24.7'
-  undici@>=7.17.0 <7.24.0: '>=7.24.7'
-  uuid@<14.0.0: '>=14.0.0'
+  undici@>=7.0.0 <7.24.0: '>=7.24.8'
+  undici@>=7.17.0 <7.24.0: '>=7.24.8'
   vite@>=7.0.0 <=7.3.1: '>=7.3.2'
   vite@>=7.1.0 <=7.1.10: '>=7.2.7'
   vite@>=7.1.0 <=7.3.1: '>=7.3.2'
@@ -920,7 +919,7 @@ importers:
         version: 9.0.1
       got:
         specifier: catalog:dev
-        version: 15.0.1
+        version: 15.0.3
       p-retry:
         specifier: catalog:dev
         version: 8.0.0
@@ -2766,9 +2765,9 @@ packages:
     resolution: {integrity: sha512-TV7t8GKYaJWsn00tFDqBw8+Uqmr8A0fRU1tvTQhyZzGv0sJCGRQL3JGMI3ucuKo3XIZdUP+Lx7/gh2t3lewy7g==}
     engines: {node: '>=14.16'}
 
-  '@sindresorhus/is@7.2.0':
-    resolution: {integrity: sha512-P1Cz1dWaFfR4IR+U13mqqiGsLFf1KbayybWwdd2vfctdV6hDpUkgCY0nKOLLTMSoRd/jJNjtbqzf13K8DCCXQw==}
-    engines: {node: '>=18'}
+  '@sindresorhus/is@8.0.0':
+    resolution: {integrity: sha512-YvOsokBE5NsyHuXMnwEVB7lgFk6lX8F4OXCruYVgFII0hUHof0RGUvhMoabVt9hRqbg+qVzayzEG24RCcxcYeA==}
+    engines: {node: '>=22'}
 
   '@sindresorhus/merge-streams@2.3.0':
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
@@ -5517,8 +5516,8 @@ packages:
     resolution: {integrity: sha512-mThBblvlAF1d4O5oqyvN+ZxLAYwIJK7bpMxgYqPD9okW0C3qm5FFn7k811QrcuEBwaogR3ngOFoCfs6mRv7teQ==}
     engines: {node: '>=14.16'}
 
-  got@15.0.1:
-    resolution: {integrity: sha512-InYCBboAj9YmFiMcxbIRQ/WPoLsKSc9t9EGaUjGENtxunnx8USWtRY/SO/V3VsHLfDvUxAO2Qmx+6fQyG1jjaw==}
+  got@15.0.3:
+    resolution: {integrity: sha512-630of5aMTYM6g6epok5nuqvctP8InJISvt39iNt7y0r27rcGCdiPv9Cc6EbwfnkyT1g/shBoVhvDjtXZUbn/Rw==}
     engines: {node: '>=22'}
 
   graceful-fs@4.2.10:
@@ -8824,6 +8823,10 @@ packages:
     resolution: {integrity: sha512-PlBfpQwiUvGViBNX84Yxwjsdhd1TUlXr6zjX7eoirtCPIr08NAmxwa+fcYBTeRQxHo9YC9wwF3m9i700sHma8g==}
     engines: {node: '>=20'}
 
+  type-fest@5.6.0:
+    resolution: {integrity: sha512-8ZiHFm91orbSAe2PSAiSVBVko18pbhbiB3U9GglSzF/zCGkR+rxpHx6sEMCUm4kxY4LjDIUGgCfUMtwfZfjfUA==}
+    engines: {node: '>=20'}
+
   type-is@2.0.1:
     resolution: {integrity: sha512-OZs6gsjF4vMp32qrCbiVSkrFmXtG/AZhY3t0iAMrMBiAZyV9oALtXO8hsrHbMXF9x6L3grlFuwW2oAz7cav+Gw==}
     engines: {node: '>= 0.6'}
@@ -9094,8 +9097,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  uuid@14.0.0:
-    resolution: {integrity: sha512-Qo+uWgilfSmAhXCMav1uYFynlQO7fMFiMVZsQqZRMIXp0O7rR7qjkj+cPvBHLgBqi960QCoo/PH2/6ZtVqKvrg==}
+  uuid@10.0.0:
+    resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
     hasBin: true
 
   uvu@0.5.6:
@@ -11234,7 +11237,7 @@ snapshots:
 
   '@sindresorhus/is@5.6.0': {}
 
-  '@sindresorhus/is@7.2.0': {}
+  '@sindresorhus/is@8.0.0': {}
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
@@ -13166,7 +13169,7 @@ snapshots:
       docker-modem: 5.0.7
       protobufjs: 7.5.5
       tar-fs: 2.1.4
-      uuid: 14.0.0
+      uuid: 10.0.0
     transitivePeerDependencies:
       - supports-color
 
@@ -14375,9 +14378,9 @@ snapshots:
       p-cancelable: 3.0.0
       responselike: 3.0.0
 
-  got@15.0.1:
+  got@15.0.3:
     dependencies:
-      '@sindresorhus/is': 7.2.0
+      '@sindresorhus/is': 8.0.0
       byte-counter: 0.1.0
       cacheable-lookup: 7.0.0
       cacheable-request: 13.0.18
@@ -14387,7 +14390,7 @@ snapshots:
       keyv: 5.6.0
       lowercase-keys: 4.0.1
       responselike: 4.0.2
-      type-fest: 5.5.0
+      type-fest: 5.6.0
       uint8array-extras: 1.5.0
 
   graceful-fs@4.2.10: {}
@@ -18525,6 +18528,10 @@ snapshots:
     dependencies:
       tagged-tag: 1.0.0
 
+  type-fest@5.6.0:
+    dependencies:
+      tagged-tag: 1.0.0
+
   type-is@2.0.1:
     dependencies:
       content-type: 1.0.5
@@ -18919,7 +18926,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  uuid@14.0.0: {}
+  uuid@10.0.0: {}
 
   uvu@0.5.6:
     dependencies:
